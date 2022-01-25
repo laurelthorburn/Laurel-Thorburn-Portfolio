@@ -10,17 +10,25 @@
 
 .intro-left {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .intro-right {
     flex: 1;
 }
 
 .intro-name{
-    font-size: large;
+    font-size: 50px;
 }
 
 .intro-left-wrapper{
     padding: 50px;
+    height: 50%;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .intro-phrase{
@@ -28,13 +36,31 @@
     font-weight: 300;
 }
 
-.intro-name{
-    font-size: 60px;
-}
-
 .intro-title{
     height: 50px;
     overflow: hidden;
+}
+
+.intro-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform:  translateY(-50px);
+    }
+    50%{
+        transform:  translateY(-100px);
+
+    }
+    75%{
+        transform:  translateY(-150px);
+
+    }
+    100%{
+        transform:  translateY(-200px);
+    }
 }
 
 .intro-title-item{
