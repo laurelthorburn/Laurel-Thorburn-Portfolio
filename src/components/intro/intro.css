@@ -22,3 +22,27 @@
 .intro-left-wrapper{
     padding: 50px;
 }
+
+.intro-phrase{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.intro-name{
+    font-size: 60px;
+}
+
+.intro-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.intro-title-item{
+height: 50px;
+font-size: 30px;
+font-weight: bold;
+color: orangered;
+background-color: palegreen;
+display: flex;
+align-items: center;
+}
