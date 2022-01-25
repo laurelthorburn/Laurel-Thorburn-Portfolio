@@ -1,7 +1,10 @@
+import './intro.css';
+
 const Intro = () => {
     return (
-        <div>
-            this is the future introduction :)
+        <div className ="intro">
+            <div className="intro-left">leftie</div>
+            <div className="intro-right">rightie</div>
         </div>
     )
 }
