@@ -11,6 +11,9 @@
     height: 20px;
     background-color: seagreen;
     display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 .projectCircle{
     width:6px;
@@ -20,4 +23,11 @@
     background-color: seashell;
 }
 
-.projectImg{}
+.projectImg{
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.project:hover .projectImg {
+    transform: translateY(-100%);
+}
