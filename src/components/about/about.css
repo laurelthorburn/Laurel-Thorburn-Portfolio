@@ -17,11 +17,8 @@
 .about-right{
     flex:1;
     background-color: palegreen;
-    height: 100%;
 }
 
 .about-desc{
-    display: flex;
-    justify-self: center;
-    align-self: center;
+color: purple;
 }
