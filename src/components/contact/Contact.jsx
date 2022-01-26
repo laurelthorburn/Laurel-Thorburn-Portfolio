@@ -4,13 +4,15 @@ import Location from '../../media/needle.png';
 import Email from '../../media/letter.png';
 // import LinkedIn from '../../media/linkedin.png';
 // import Github from '../../media/github.png';
-import { useRef } from 'react';
+import { useRef, useState, useContext } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
     //using react hook
     const formRef = useRef();
+    //use state hook
+    const [done, setDone] = useState(false);
 
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
@@ -19,6 +21,7 @@ const Contact = () => {
         emailjs.sendForm('service_a8wm6ey', 'template_uz6j0pr', formRef.current, 'user_JzMKPjAf3Nxc7OxXzWIf6')
           .then((result) => {
               console.log("Your email has been sent 📨");
+              setDone(true)
           }, (error) => {
               console.log(error.text);
           });
@@ -55,6 +58,7 @@ const Contact = () => {
                             <input type="text" placeholder='Email' name='{user_email}' />
                             <textarea name="message" rows="5" placeholder='Message'></textarea>
                             <button>Submit!</button>
+                            {done  && "Thank you, your email has been sent 📨"}
                         </form>
                     </div>
                 </div>
