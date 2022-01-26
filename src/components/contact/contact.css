@@ -22,3 +22,21 @@
 .contact-right {
     flex: 1;
 }
+
+.contactTitle {
+    font-size: 60px;
+    width: 80%;
+}
+.contactInfoItem{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.contactIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20%;
+}
