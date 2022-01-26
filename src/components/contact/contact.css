@@ -1,0 +1,24 @@
+.contact {
+    height: 100vh;
+    position: relative;
+}
+
+.contactBg {
+    width: 20px;
+    height: 100%;
+    background-color: sienna;
+    position: absolute;
+}
+
+.contactWrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-right {
+    flex: 1;
+}
