@@ -2,21 +2,21 @@ import './contact.css';
 import Phone from '../../media/phone.png';
 import Location from '../../media/needle.png';
 import Email from '../../media/letter.png';
-import LinkedIn from '../../media/linkedin.png';
-import Github from '../../media/github.png';
+// import LinkedIn from '../../media/linkedin.png';
+// import Github from '../../media/github.png';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
     //using react hook
-    const formRef = useRef()
+    const formRef = useRef();
 
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_a8wm6ey', 'service_a8wm6ey', form.current, 'user_JzMKPjAf3Nxc7OxXzWIf6')
+        emailjs.sendForm('service_a8wm6ey', 'template_uz6j0pr', formRef.current, 'user_JzMKPjAf3Nxc7OxXzWIf6')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -49,7 +49,7 @@ const Contact = () => {
                         <p className="contactDesc">
                             <b>Let's work together.</b> Send me an email so we can discuss how I can contribute to your team.
                         </p>
-                        <form ref={formRef} onSubmit ={sendEmail}>
+                        <form ref={formRef} onSubmit={sendEmail}>
                             <input type="text" placeholder='Name' name='{user_name}' />
                             <input type="text" placeholder='Subject' name='{user_subject}' />
                             <input type="text" placeholder='Email' name='{user_email}' />
