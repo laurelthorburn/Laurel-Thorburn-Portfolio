@@ -2,7 +2,7 @@ import './project.css'
 
 const Project = () => {
     return(
-        <div>
+        <div className="project">
             hello there :)
         </div>
     )
