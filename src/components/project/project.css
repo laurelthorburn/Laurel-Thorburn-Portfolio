@@ -1,3 +1,21 @@
 .project{
-    width: 300px;
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.projectBrowser{
+    height: 20px;
+    background-color: seagreen;
+    display: flex;
+}
+.projectCircle{
+    width:6px;
+    height: 6px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: seashell;
 }
