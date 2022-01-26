@@ -18,7 +18,7 @@ const Contact = () => {
     
         emailjs.sendForm('service_a8wm6ey', 'template_uz6j0pr', formRef.current, 'user_JzMKPjAf3Nxc7OxXzWIf6')
           .then((result) => {
-              console.log(result.text);
+              console.log("Your email has been sent 📨");
           }, (error) => {
               console.log(error.text);
           });
