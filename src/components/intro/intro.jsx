@@ -1,4 +1,5 @@
 import './intro.css';
+import Laurel from '../../media/laurelheadshotmini.jpg';
 
 const Intro = () => {
     return (
@@ -20,7 +21,9 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-            <div className="intro-right">rightie</div>
+            <div className="intro-right">
+                <img src={Laurel} alt="headshot photo" className="intro-img" />
+            </div>
         </div>
     )
 }
