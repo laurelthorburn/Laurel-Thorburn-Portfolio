@@ -1,6 +1,6 @@
 import './project.css'
 
-const Project = () => {
+const Project = ({img,link}) => {
     return (
         <div className="project">
             <div className="projectBrowser">
@@ -8,8 +8,8 @@ const Project = () => {
                 <div className="projectCircle"></div>
                 <div className="projectCircle"></div>
             </div>
-            <a href="https://github.com/laurelthorburn" target="_blank">
-                <img src="" alt="" className="projectImg" />
+            <a href={link} target="_blank">
+                <img src={img} alt="" className="projectImg" />
             </a>
         </div>
     )
