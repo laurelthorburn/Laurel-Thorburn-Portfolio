@@ -2,9 +2,19 @@ import './navbar.css';
 
 export const Navbar = (props) => {
   return (
-    <div>
-        Future navigation bar
-    </div>
+    <nav className="nav">
+        <div className="nav-left">
+            <h1 className="navName">laurel.</h1>
+        </div>
+        <div className="nav-right">
+            <div className="navItems">
+                <span>About Me |</span>
+                <span> Contact |</span>
+                <span> Projects |</span>
+                <span> Resume</span>
+            </div>
+        </div>
+    </nav>
     )
 };
 
