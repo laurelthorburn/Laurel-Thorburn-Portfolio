@@ -1,3 +1,8 @@
+* {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .nav {
     height: 10vh;
     background-color: #7195A3;
@@ -15,7 +20,7 @@
 }
 .navName {
     font-family: 'Sacramento', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #f0e9d7;
     margin: 0px 15px;
     padding: 0px;
@@ -23,5 +28,12 @@
 
 .navItems {
     color: #f0e9d7;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navItems:hover {
+    cursor: pointer;
 }
