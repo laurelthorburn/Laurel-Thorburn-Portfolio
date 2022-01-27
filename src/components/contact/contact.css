@@ -77,3 +77,11 @@ button {
     font-weight: 500;
     cursor: pointer;
 }
+
+/* phone/mobile device */
+@media screen and (max-width: 480px) {
+    .contactWrapper{
+        flex-direction: column;
+        
+    }
+    }

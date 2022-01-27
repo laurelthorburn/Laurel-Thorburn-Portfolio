@@ -6,11 +6,18 @@ import Email from '../../media/letter.png';
 // import Github from '../../media/github.png';
 import { useRef, useState, useContext } from 'react';
 import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context';
 
 const Contact = () => {
 
     //using react hook
     const formRef = useRef();
+
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+  
+  
+
     //use state hook
     const [done, setDone] = useState(false);
 
@@ -53,10 +60,10 @@ const Contact = () => {
                             <b>Let's work together.</b> Send me an email so we can discuss how I can contribute to your team.
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
-                            <input type="text" placeholder='Name' name='{user_name}' />
-                            <input type="text" placeholder='Subject' name='{user_subject}' />
-                            <input type="text" placeholder='Email' name='{user_email}' />
-                            <textarea name="message" rows="5" placeholder='Message'></textarea>
+                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Name' name='{user_name}' />
+                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Subject' name='{user_subject}' />
+                            <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Email' name='{user_email}' />
+                            <textarea style={{backgroundColor: darkMode && "#333"}} name="message" rows="5" placeholder='Message'></textarea>
                             <button>Submit!</button>
                             {done  && "Thank you, your email has been sent 📨"}
                         </form>

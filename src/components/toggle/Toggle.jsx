@@ -12,7 +12,7 @@ const Toggle = (props) => {
     <div className ="toggle">
         <img src="" alt="" />
         <img src="" alt="" />
-        <div className="toggleButton" onCLick={handleClick}></div>
+        <div className="toggleButton" onCLick={handleClick} style={{ left: theme.state.darkMode ? 0 : 25 }}></div>
     </div>
     );
 };
