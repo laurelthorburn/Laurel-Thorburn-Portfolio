@@ -33,4 +33,8 @@ color: purple;
     .about-left{
         width: 100%;
     }
+
+    .about-right{
+        padding: 20px;
+    }
     }

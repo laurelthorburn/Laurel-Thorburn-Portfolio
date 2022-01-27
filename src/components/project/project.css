@@ -31,3 +31,11 @@
 .project:hover .projectImg {
     transform: translateY(-100%);
 }
+
+/* phone/mobile device */
+@media screen and (max-width: 480px) {
+    .project{
+        width: 40%;
+        height: 20vh;
+    }
+    }

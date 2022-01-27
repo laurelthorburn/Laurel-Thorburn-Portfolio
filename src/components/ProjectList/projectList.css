@@ -25,3 +25,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* phone/mobile device */
+@media screen and (max-width: 480px) {
+    .projectList{
+        padding: 10px;
+    }
+    .projectListTexts{
+        width: 100%;
+    }
+    .projectListDescP{
+        display: none;
+    }
+    }
