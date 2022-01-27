@@ -80,18 +80,18 @@ button {
 
 /* phone/mobile device */
 @media screen and (max-width: 480px) {
-    .contactWrapper{
+    .contactWrapper {
         flex-direction: column;
         padding: 0px 50px;
     }
-    .contactTitle{
+    .contactTitle {
         font-size: 30px;
     }
-    .contactInfoItem{
+    .contactInfoItem {
         margin: 20px 0px;
         width: 100%;
     }
-    .contactDesc{
+    .contactDesc {
         display: none;
     }
 
