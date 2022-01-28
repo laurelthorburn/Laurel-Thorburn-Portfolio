@@ -1,28 +1,11 @@
 .project{
     width: 25%;
     height: 40vh;
-    margin: 20px 10px;
-    border: 2px solid rgb(243, 242, 242);
-    border-radius: 10px 10px 0px 0px;
+    margin: 10px 10px !important;
+    border: 2px solid rgba(0, 0, 0, 0.274);
     overflow: hidden;
+    background-color: teal;
 }
-
-.projectBrowser{
-    height: 20px;
-    background-color: seagreen;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
-}
-.projectCircle{
-    width:6px;
-    height: 6px;
-    margin: 3px;
-    border-radius: 50%;
-    background-color: seashell;
-}
-
 .projectImg{
     width: 100%;
     transition: all 10s ease;
