@@ -31,12 +31,10 @@
 }
 
 .introName{
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     font-family: 'Klee One', cursive;
-    /* color: rgb(11, 26, 41); */
     color: white;
-
 }
 
 @keyframes move {
@@ -71,11 +69,15 @@
     font-size: 30px;
     font-weight: bold;
     font-family: 'Klee One', cursive;
-    /* color: rgb(11, 26, 41); */
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.introAbout {
+    color: white;
+    font-family: 'Klee One', cursive;
 }
 
 /* phone/mobile device */

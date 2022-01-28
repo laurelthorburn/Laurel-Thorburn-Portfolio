@@ -1,7 +1,4 @@
 import './footer.css'
-import Phone from '../../media/phone.png';
-import Location from '../../media/needle.png';
-import Email from '../../media/letter.png';
 import LinkedIn from '../../media/linkedin.png';
 import Github from '../../media/github.png';
 
