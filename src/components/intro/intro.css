@@ -6,7 +6,6 @@
 .intro {
     display: flex;
     height: 90vh;
-    background-color: rgb(168, 157, 243);
 }
 
 .intro-img {
@@ -32,11 +31,12 @@
 }
 
 .introName{
-    font-family: 'Sacramento', cursive;
     font-size: 5rem;
     text-align: center;
     font-family: 'Klee One', cursive;
-    color: rgb(11, 26, 41);
+    /* color: rgb(11, 26, 41); */
+    color: white;
+
 }
 
 @keyframes move {
@@ -67,12 +67,15 @@
 }
 
 .intro-title-item{
-height: 50px;
-font-size: 30px;
-font-weight: bold;
-color: whitesmoke;
-display: flex;
-align-items: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Klee One', cursive;
+    /* color: rgb(11, 26, 41); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* phone/mobile device */

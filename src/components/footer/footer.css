@@ -1,0 +1,27 @@
+.foot {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footIcons{
+padding: 10px;
+width: 15vw;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.footImg{
+    width: 50px;
+    opacity: 50%;
+}
+
+.footImg:hover {
+    cursor: pointer;
+    opacity: 100%;
+}
