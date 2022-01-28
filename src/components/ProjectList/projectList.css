@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    background-color: tomato;
 }
 
 .projectListContent{
@@ -22,8 +21,5 @@
     }
     .projectListTexts{
         width: 100%;
-    }
-    .projectListDescP{
-        display: none;
     }
     }
