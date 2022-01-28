@@ -1,7 +1,7 @@
 // import { useContext } from 'react';
 // import Contact from './components/contact/Contact';
-import Intro from './components/intro/Intro';
-// import ProjectList from './components/projectList/ProjectList';
+// import Intro from './components/intro/Intro';
+import ProjectList from './components/projectList/ProjectList';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer'
 
@@ -11,10 +11,10 @@ const App = () => {
 
     <div>
       <Navbar />
-      <Intro />
-      {/* 
+      {/* <Intro /> */}
+      
       <ProjectList />
-      <Contact /> */}
+      {/* <Contact /> */}
       <Footer />
     </div>
   )

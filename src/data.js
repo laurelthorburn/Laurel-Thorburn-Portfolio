@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        img: "https://cdn.pixabay.com/photo/2017/02/16/02/54/coming-soon-2070393_960_720.jpg",
+        img: 'https://i.ibb.co/hVcBVCG/donutsite.png',
         link: "https://github.com/laurelthorburn"
     },
     {
