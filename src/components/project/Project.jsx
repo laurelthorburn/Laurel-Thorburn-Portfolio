@@ -1,6 +1,9 @@
+import { useContext } from 'react';
 import './project.css'
 
 const Project = ({img,link,title}) => {
+    console.log(link)
+    console.log(title)
     return (
         <div className="project">
             <div className="card">
@@ -11,7 +14,9 @@ const Project = ({img,link,title}) => {
             </figure>
 
             <figure className="back">
-                This will have the github link and the deployed site link :)
+                <div className="cardTitle">
+                    Title: {title}
+                </div>
             </figure>
             </div>
         </div>

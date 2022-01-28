@@ -9,7 +9,7 @@ export const projects = [
         id: 2,
         img: "https://cdn.pixabay.com/photo/2017/02/16/02/54/coming-soon-2070393_960_720.jpg",
         link: "https://github.com/laurelthorburn/Team-Profile-Generator",
-        tile: "Team Profile Generator"
+        title: "Team Profile Generator"
     },
     {
         id: 3,
