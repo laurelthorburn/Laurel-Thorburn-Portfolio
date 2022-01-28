@@ -19,7 +19,8 @@
     text-align: center;
 }
 .navName {
-    font-family: 'Sacramento', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3.5rem;
     color: #f0e9d7;
     margin: 0px 15px;

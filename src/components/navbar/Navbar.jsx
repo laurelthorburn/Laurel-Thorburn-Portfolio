@@ -5,7 +5,7 @@ export const Navbar = (props) => {
   return (
     <nav className="nav">
         <div className="nav-left">
-            <h1 className="navName">laurel</h1>
+            <h1 className="navName">hello world</h1>
         </div>
         <div className="nav-right">
             <div className="navItems">
