@@ -1,10 +1,11 @@
 import './intro.css';
 import Laurel from '../../media/laurelheadshotmini.jpg';
+import Hero from '../../media/sean_fallphoto.jpg'
 
 const Intro = () => {
     return (
         <div className ="intro">
-            <div className="intro-left">
+            {/* <div className="intro-left">
                 <div className="intro-left-wrapper">
                     <h2 className ="intro-phrase">Welcome.</h2>
                     <h1 className="intro-name">My name is Laurel Thorburn.</h1>
@@ -23,7 +24,8 @@ const Intro = () => {
             </div>
             <div className="intro-right">
                 <img src={Laurel} alt="headshot photo" className="intro-img" />
-            </div>
+            </div> */}
+            <img src={Hero} alt="" className="intro-img" />
         </div>
     )
 }
