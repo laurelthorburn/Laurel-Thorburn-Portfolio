@@ -2,8 +2,6 @@ import './contact.css';
 import Phone from '../../media/phone.png';
 import Location from '../../media/needle.png';
 import Email from '../../media/letter.png';
-// import LinkedIn from '../../media/linkedin.png';
-// import Github from '../../media/github.png';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -32,11 +30,11 @@ const Contact = () => {
         <div className="contact">
                 <div className="contactWrapper">
                     <div className="contact-left">
-                        <h1 className="contactTitle"> Contact Information:</h1>
                         <div className="contactInfo">
+                        <h1 className="contactTitle"> Contact Information:</h1>
                             <div className="contactInfoItem">
                                 <img src={Phone} alt="Phone Icon" className="contactIcon" />
-                            + 555-555-5555
+                            + 303-736-9393
                             </div>
                             <div className="contactInfoItem">
                                 <img src={Email} alt="Email Icon" className="contactIcon" />
