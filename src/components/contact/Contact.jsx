@@ -31,7 +31,7 @@ const Contact = () => {
                 <div className="contactWrapper">
                     <div className="contact-left">
                         <div className="contactInfo">
-                        <h1 className="contactTitle"> Contact Information:</h1>
+                        <h1 className="contactTitle"> Contact Information</h1>
                             <div className="contactInfoItem">
                                 <img src={Phone} alt="Phone Icon" className="contactIcon" />
                             + 303-736-9393
@@ -48,7 +48,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-right">
                         <p className="contactDesc">
-                            <b>Let's work together.</b> Send me an email so we can discuss how I can contribute to your team.
+                            <b>Let's work together.</b> 
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
                             <input type="text" placeholder='Name' name='{user_name}' required />
@@ -59,7 +59,7 @@ const Contact = () => {
 
                             <textarea name="message" rows="5" placeholder='Insert Message Here' required></textarea>
 
-                            <button>Submit!</button>
+                            <button className="button-6" >Send Email</button>
                             {done  && "Thank you, your email has been sent 📨"}
                         </form>
                     </div>
