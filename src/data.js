@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        img: 'https://i.ibb.co/hVcBVCG/donutsite.png',
+        img: 'https://i.ibb.co/xJCCWtb/donutsite.png',
         ghLink: "https://github.com/laurelthorburn/Laurel-Thorburn-Portfolio", 
         siteLink: "https://github.com/laurelthorburn/Laurel-Thorburn-Portfolio",
         title: "Donut Forget to Review"
