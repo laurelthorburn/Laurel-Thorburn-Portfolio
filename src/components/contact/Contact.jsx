@@ -51,10 +51,14 @@ const Contact = () => {
                             <b>Let's work together.</b> Send me an email so we can discuss how I can contribute to your team.
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
-                            <input type="text" placeholder='Name' name='{user_name}' />
-                            <input type="text" placeholder='Subject' name='{user_subject}' />
-                            <input type="text" placeholder='Email' name='{user_email}' />
-                            <textarea name="message" rows="5" placeholder='Message'></textarea>
+                            <input type="text" placeholder='Name' name='{user_name}' required />
+
+                            <input type="text" placeholder='Subject' name='{user_subject}' required />
+
+                            <input type="text" placeholder='Email' name='{user_email}' required />
+
+                            <textarea name="message" rows="5" placeholder='Insert Message Here' required></textarea>
+
                             <button>Submit!</button>
                             {done  && "Thank you, your email has been sent 📨"}
                         </form>
