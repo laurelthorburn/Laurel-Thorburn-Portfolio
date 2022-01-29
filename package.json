@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://laurelthorburn.github.io/Laurel-Thorburn-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
