@@ -1,0 +1,34 @@
+import React, { useState } from 'react';
+import Navbar from './navbar/Navbar';
+import Intro from './intro/Intro';
+import Contact from './contact/Contact';
+import ProjectList from './projectList/ProjectList';
+
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('Intro');
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === 'Intro') {
+      return <Intro />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'ProjectList') {
+      return <ProjectList />;
+    }
+    return <Intro />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+    </div>
+  );
+}
