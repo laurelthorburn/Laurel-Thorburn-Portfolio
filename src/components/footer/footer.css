@@ -24,7 +24,7 @@ justify-content: space-evenly;
 
 .footImg:hover {
     cursor: pointer;
-    opacity: 100%;
+    opacity: 75%;
 }
 
 .ghLogo {
