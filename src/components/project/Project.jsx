@@ -1,5 +1,7 @@
 import { useContext } from 'react';
 import './project.css'
+import Github from '../../media/github.png'
+import Computer from '../../media/computer.png'
 
 const Project = ({img,link,title}) => {
     console.log(link)
@@ -16,6 +18,14 @@ const Project = ({img,link,title}) => {
             <figure className="back">
                 <div className="cardTitle">
                     Title: {title}
+                    </div>
+                    <div className="githubBlock">
+                    View on Github 
+                    {/* <img src={Github} alt="View Github Icon" className="cardIcon" /> */}
+                    </div>
+                    <div className="siteBlock">
+                        View Site
+                    {/* <img src={Computer} alt="View Site Icon" className="cardIcon" /> */}
                 </div>
             </figure>
             </div>
