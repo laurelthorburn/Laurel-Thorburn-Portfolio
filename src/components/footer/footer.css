@@ -19,9 +19,18 @@ justify-content: space-evenly;
 .footImg{
     width: 50px;
     opacity: 50%;
+    border-radius: 50%;
 }
 
 .footImg:hover {
     cursor: pointer;
     opacity: 100%;
+}
+
+.ghLogo {
+    background-color: #F0F0F0;
+}
+
+.imgBorder {
+    border: 1px black solid
 }
