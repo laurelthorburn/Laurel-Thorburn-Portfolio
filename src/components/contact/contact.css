@@ -2,7 +2,7 @@
     height: 90vh;
     position: relative;
     display: flex;
-    background-color: #f0e9d769;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -49,9 +49,10 @@
 }
 
 .contactIcon {
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+    height: 50px;
+    margin: 0px 20px 10px 20px !important;
+    border: 1px black solid;
+    border-radius: 50%;
 }
 
 .contactDesc {
