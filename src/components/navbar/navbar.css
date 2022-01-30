@@ -25,6 +25,11 @@ a {
     text-align: center;
 }
 
+.currentLink {
+    text-decoration: underline;
+    color:lightblue;
+}
+
 .navName {
     font-family: 'Inspiration', cursive;
     font-size: 3rem;
