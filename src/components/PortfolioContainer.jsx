@@ -4,6 +4,7 @@ import Intro from './intro/Intro';
 import Contact from './contact/Contact';
 import ProjectList from './projectList/ProjectList';
 import Footer from './footer/Footer';
+import Resume from './resume/Resume'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Intro');
@@ -18,6 +19,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'ProjectList') {
       return <ProjectList />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     return <Intro />;
   };

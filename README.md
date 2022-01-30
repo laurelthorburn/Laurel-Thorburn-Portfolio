@@ -1,8 +1,8 @@
-# REACT-Portfolio-Tutorial
+# REACT-Portfolio
 
 <a name="descsection"></a>
 ## Description
-Coming soon...
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
