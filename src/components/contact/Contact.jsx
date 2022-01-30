@@ -16,8 +16,17 @@ const Contact = () => {
     //use state for email validation
     const [error, setError] = useState("");
 
-    //use state for text validation
-    const [textCheck, setTextCheck] = useState({name: "", subject: "", message: ""});
+    //use state for name text validation
+    const [checkName, setNameCheck] = useState("Name");
+
+    //use state for subj text validation
+    const [checkSubject, setSubjectCheck] = useState("Subject");
+
+    //use state for msg text validation
+    const [checkMessage, setMessageCheck] = useState("Insert Message Here");
+
+    //use state for email text validation
+    const [checkEmail, setEmailCheck] = useState("Email");
 
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
@@ -32,22 +41,34 @@ const Contact = () => {
           });
       };
 
-        //check to see if user input a value in email form
-        const handleText = (e) => {
+        //check to see if user input a value in name form
+        const handleName = (e) => {
             e.preventDefault();
-
-            (!e.target.value.length) ?
-            setTextCheck("Input is required") :
-            setTextCheck("");
+            (!e.target.value.length) ? setNameCheck("Name is required") : setNameCheck("Name");
             }
 
-      //check to see if user input a value in email form
+        //check to see if user input a value in subject form
+        const handleSubject = (e) => {
+            e.preventDefault();
+            (!e.target.value.length) ? setSubjectCheck("Subject is required") : setSubjectCheck("Subject");
+            }
+
+        //check to see if user input a value in email form
+        const handleMessage = (e) => {
+            e.preventDefault();
+            (!e.target.value.length) ? setMessageCheck("Message is required") : setMessageCheck("Insert Message Here");
+            }
+
+        //check to see if user input a value in email form
+        const handleEmail = (e) => {
+            e.preventDefault();
+            (!e.target.value.length) ? setEmailCheck("Email is required") : setMessageCheck("Email");
+            }
+
+      //check to see if user input a value in email form, must meet email requirements
       const handleChange = (e) => {
         e.preventDefault();
-
-        isEmail(e.target.value) ? 
-        setError("") 
-        : setError("Please input a valid email, such as laurelishired@hireher.com");
+        isEmail(e.target.value) ? setError("") : setError("Please input a valid email, such as laurelishired@hireher.com");
       }
 
     return (
@@ -76,14 +97,14 @@ const Contact = () => {
                             <b>Let's work together.</b> 
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
-                            <input type="text" placeholder='Name' name='{user_name}' onChange={handleText} required />
+                            <input type="text" placeholder={checkName} name='{user_name}' onBlur={handleName} required />
 
-                            <input type="text" placeholder='Subject' name='{user_subject}' onChange={handleText} required />
+                            <input type="text" placeholder={checkSubject} name='{user_subject}' onBlur={handleSubject} required />
 
-                            <input type="email" placeholder='Email' name='{user_email}' onChange={handleChange} required />
+                            <input type="email" placeholder={checkEmail} name='{user_email}' onBlur={handleEmail} onChange={handleChange} required />
                             <p className="errorMsg">{error}</p>
 
-                            <textarea name="message" rows="5" placeholder='Insert Message Here' onChange={handleText} required></textarea>
+                            <textarea name="message" rows="5" placeholder={checkMessage} onBlur={handleMessage} required></textarea>
 
                             <button className="button-6" >Send Email</button>
                             {done  && "Thank you, your email has been sent 📨"}
