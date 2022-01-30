@@ -24,6 +24,8 @@ transform-style: preserve-3d;
 
 .card .front {
     background: white;
+    display: flex;
+    justify-content: center;
 }
 
 .card figure {
