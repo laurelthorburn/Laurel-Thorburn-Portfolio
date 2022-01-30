@@ -1,26 +1,4 @@
 import './navbar.css';
-
-// //todo: change css styling of navName
-// export const Navbar = () => {
-//   return (
-//     <nav className="nav">
-//         <div className="nav-left">
-//             <h1 className="navName">hello world</h1>
-//         </div>
-//         <div className="nav-right">
-//             <span>
-//                 <span>About Me</span>
-//                 <span>Contact</span>
-//                 <span>Projects</span>
-//                 <span>Resume</span>
-//             </div>
-//         </div>
-//     </nav>
-//     )
-// };
-
-// export default Navbar;
-
 import React from 'react';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
@@ -29,7 +7,7 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="nav">
         <div className="nav-left">
-            <h1 className="navName">hello world</h1>
+            <h1 className="navName"><span className="bigL">L</span>aurel</h1>
         </div>
         <div className="nav-right">
             <span className='navItems'>

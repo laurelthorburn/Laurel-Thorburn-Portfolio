@@ -26,12 +26,14 @@ a {
 }
 
 .navName {
-    /* font-family: 'Sacramento', cursive; */
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Inspiration', cursive;
     font-size: 3.5rem;
     color: #f0e9d7;
-    margin: 0px 15px;
-    padding: 0px;
+    margin: 0px 25px !important;
+}
+
+.bigL {
+    font-family: 'Great Vibes', cursive;
 }
 
 .navItems {
