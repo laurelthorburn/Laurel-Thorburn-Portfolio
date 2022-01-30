@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import './project.css'
-import GithubLogo from '../../media/githublogo.png'
-import Computer from '../../media/computer.png'
+// import GithubLogo from '../../media/githublogo.png'
+// import Computer from '../../media/computer.png'
 
 const Project = ({img,ghLink,siteLink,title}) => {
     return (
@@ -12,20 +12,20 @@ const Project = ({img,ghLink,siteLink,title}) => {
                 </figure>
 
             <figure className="back">
-                <div className="cardTitle">
+                {/* <div className="cardTitle">
                     Title: {title}
-                </div>
+                </div> */}
                     <a href={ghLink} target="_blank" rel="noreferrer">
                         <div className="githubBlock">
                             View on Github 
-                            <img src={GithubLogo} alt="View Github Icon" className="cardIcon" />
+                            {/* <img src={GithubLogo} alt="View Github Icon" className="cardIcon" /> */}
                         </div>
                     </a>
 
                     <a href={siteLink} target="_blank" rel="noreferrer">
                         <div className="siteBlock">
                             View Site
-                            <img src={Computer} alt="View Site Icon" className="cardIcon" />
+                            {/* <img src={Computer} alt="View Site Icon" className="cardIcon" /> */}
                         </div>
                     </a>
             </figure>

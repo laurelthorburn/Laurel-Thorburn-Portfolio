@@ -4,6 +4,8 @@
     margin: 10px 10px !important;
     border: 2px solid rgba(0, 0, 0, 0.274);
     overflow: hidden;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
 }
 
 .projectImg{
@@ -47,6 +49,10 @@ transform-style: preserve-3d;
     cursor: pointer;
 }
 
+.cardTitle{
+    font-family: 'Anton', sans-serif;
+}
+
 .cardIcon {
     width: 25px;
 }
@@ -58,6 +64,9 @@ transform-style: preserve-3d;
     border-radius: 4px;
     box-shadow: 0 4px 22px 0 rgb(0 0 0 / 20%);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .siteBlock {
@@ -67,6 +76,9 @@ transform-style: preserve-3d;
     border-radius: 4px;
     box-shadow: 0 4px 22px 0 rgb(0 0 0 / 20%);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* phone/mobile device */
 @media screen and (max-width: 480px) {
