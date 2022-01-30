@@ -163,3 +163,7 @@ textarea {
         margin-top: 10px;
     }
 }
+
+.invalid {
+    border: 2px dashed red;
+}

@@ -80,6 +80,11 @@ transform-style: preserve-3d;
     justify-content: center;
     align-items: center;
 }
+
+.projectLink:hover,
+.siteLink:hover{
+    color: pink;
+}
 /* phone/mobile device */
 @media screen and (max-width: 480px) {
     .project{

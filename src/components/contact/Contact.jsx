@@ -4,6 +4,7 @@ import Location from '../../media/location.png';
 import Email from '../../media/email.png';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import isEmail from 'validator/lib/isEmail';
 
 const Contact = () => {
 
@@ -11,6 +12,12 @@ const Contact = () => {
     const formRef = useRef();
     //use state hook
     const [done, setDone] = useState(false);
+
+    //use state for email validation
+    const [error, setError] = useState("");
+
+    //use state for text validation
+    const [textCheck, setTextCheck] = useState("");
 
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
@@ -24,6 +31,24 @@ const Contact = () => {
               console.log(error.text);
           });
       };
+
+        //check to see if user input a value in email form
+        const handleText = (e) => {
+            e.preventDefault();
+
+            (!e.target.value.length) ?
+            setTextCheck("Input is required") :
+            setTextCheck("");
+            }
+
+      //check to see if user input a value in email form
+      const handleChange = (e) => {
+        e.preventDefault();
+
+        isEmail(e.target.value) ? 
+        setError("") 
+        : setError("Please input a valid email, such as laurelishired@hireher.com");
+      }
 
     return (
 
@@ -51,13 +76,14 @@ const Contact = () => {
                             <b>Let's work together.</b> 
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
-                            <input type="text" placeholder='Name' name='{user_name}' required />
+                            <input type="text" placeholder='Name' name='{user_name}' onChange={handleText} required />
 
-                            <input type="text" placeholder='Subject' name='{user_subject}' required />
+                            <input type="text" placeholder='Subject' name='{user_subject}' onChange={handleText} required />
 
-                            <input type="text" placeholder='Email' name='{user_email}' required />
+                            <input type="email" placeholder='Email' name='{user_email}' onChange={handleChange} required />
+                            <p className="errorMsg">{error}</p>
 
-                            <textarea name="message" rows="5" placeholder='Insert Message Here' required></textarea>
+                            <textarea name="message" rows="5" placeholder='Insert Message Here' onChange={handleText} required></textarea>
 
                             <button className="button-6" >Send Email</button>
                             {done  && "Thank you, your email has been sent 📨"}

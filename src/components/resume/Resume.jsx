@@ -80,7 +80,7 @@ const Resume = () => {
                     <h3 className="stackTitle"> 
                     STACK
                     </h3>
-                    Languages: HTML, CSS, JavaScript, SQL (MySQL), Node.js
+                    <span className="resumeLang">Languages: HTML, CSS, JavaScript, SQL (MySQL), Node.js</span>
                     Libraries: Bootstrap, Bulma, jQuery, Materialize, Node, Express, Handlebars, Sequelize
                     Applications: GitHub, GitLab, Heroku
                 </div>

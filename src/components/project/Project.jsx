@@ -15,17 +15,19 @@ const Project = ({img,ghLink,siteLink,title}) => {
                 {/* <div className="cardTitle">
                     Title: {title}
                 </div> */}
-                    <a href={ghLink} target="_blank" rel="noreferrer">
-                        <div className="githubBlock">
-                            View on Github 
-                            {/* <img src={GithubLogo} alt="View Github Icon" className="cardIcon" /> */}
+                    <a href={ghLink} target="_blank" rel="noreferrer" className='projectLink'>
+                        <div className="githubBlock" onClick="location.href={ghLink}">
+                            <a href={ghLink} target="_blank" rel="noreferrer" className='projectLink'>
+                                View on Github
+                            </a>
                         </div>
                     </a>
 
-                    <a href={siteLink} target="_blank" rel="noreferrer">
+                    <a href={siteLink} target="_blank" rel="noreferrer" className='siteLink'>
                         <div className="siteBlock">
-                            View Site
-                            {/* <img src={Computer} alt="View Site Icon" className="cardIcon" /> */}
+                            <a href={siteLink} target="_blank" rel="noreferrer" className='siteLink'>
+                                View Site
+                                </a>
                         </div>
                     </a>
             </figure>

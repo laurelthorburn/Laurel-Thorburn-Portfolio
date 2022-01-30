@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
+    padding: 10px 0px 20px 0px !important;
 }
 
 .resumeSubTitle{
@@ -72,4 +73,16 @@
 .workDetails {
     font-size: .75rem;
     padding: 5px 0px !important;
+}
+
+.stackTitle,
+.softieTitle,
+.resContactTitle{
+font-size: 1.5rem;
+}
+
+.resumeStack,
+.resumeSoftie,
+.resumeContact{
+    padding: 10px !important;
 }
