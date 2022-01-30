@@ -1,4 +1,9 @@
-import './resume.css'
+import './resume.css';
+import MiniEmail from '../../media/miniemail.png';
+import MiniPhone from '../../media/miniphone.png';
+import MiniSite from '../../media/minisite.png';
+import MiniInsta from '../../media/miniinsta.png';
+import MiniDownload from '../../media/minidownload.png';
 
 const Resume = () => {
     return(
@@ -80,9 +85,12 @@ const Resume = () => {
                     <h3 className="stackTitle"> 
                     STACK
                     </h3>
-                    <span className="resumeLang">Languages: HTML, CSS, JavaScript, SQL (MySQL), Node.js</span>
-                    Libraries: Bootstrap, Bulma, jQuery, Materialize, Node, Express, Handlebars, Sequelize
-                    Applications: GitHub, GitLab, Heroku
+                    <span className="stackTopic">Languages: </span> 
+                    <span className="stackContent">HTML, CSS, JavaScript, SQL (MySQL), Node.js, NoSQL (MongoDB), GraphQL, TypeScript</span>
+                    <span className="stackTopic">Libraries: </span> 
+                    <span className="stackContent">Bootstrap, Bulma, jQuery, Materialize, Mongoose, NextJS, Node, Express, Handlebars, ReactJS, Sequelize</span>
+                    <span className="stackTopic">Applications: </span> 
+                    <span className="stackContent">GitHub, GitLab, Heroku, Atlas, Npm, Eslint, Yarn, Compass, Insomnia, Postman, MySQL Workbench</span>
                 </div>
                 <div className="resumeSoftie">
                     <h3 className="softieTitle"> 
@@ -94,11 +102,11 @@ const Resume = () => {
                     <h3 className="resContactTitle"> 
                     CONTACT
                     </h3>
-                    codinglaurel@gmail.com
-                    +1 720-303-9393
-                    laurelthorburn.com (coming soon)
-                    @flaurel_designs
-                    Download Resume (PDF)
+                    <span><img src={MiniEmail} alt="email icon" className='resumeMini' /> codinglaurel@gmail.com</span>
+                    <span><img src={MiniPhone} alt="email icon" className='resumeMini'  /> +1 720-303-9393</span>
+                    <span><img src={MiniSite} alt="email icon" className='resumeMini'  /> laurelthorburn.com (coming soon)</span>
+                    <span><img src={MiniInsta} alt="email icon" className='resumeMini'  /> @flaurel_designs</span>
+                    <span><img src={MiniDownload} alt="email icon" className='resumeMini'  /> Download Resume (PDF)</span>
                 </div>
             </div>
             </div>

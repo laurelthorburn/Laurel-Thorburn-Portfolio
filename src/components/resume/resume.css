@@ -56,6 +56,10 @@
     font-size: 2rem;
 }
 
+.workTitle{
+    padding-top: 10px !important;
+}
+
 .educationHeader,
 .workHeader {
     display: flex;
@@ -85,4 +89,27 @@ font-size: 1.5rem;
 .resumeSoftie,
 .resumeContact{
     padding: 10px !important;
+}
+
+.resumeStack {
+    display: flex;
+    flex-direction: column;
+}
+
+.stackTopic{
+    font-size: 1rem;
+    padding: 5px 0px !important;
+}
+
+.stackContent{
+    font-size: .75rem;
+}
+
+.resumeContact{
+    display: flex;
+    flex-direction: column;
+}
+.resumeMini{
+    width: 15px;
+    padding-right: 2px !important;;
 }
