@@ -102,11 +102,11 @@ const Resume = () => {
                     <h3 className="resContactTitle"> 
                     CONTACT
                     </h3>
-                    <span><img src={MiniEmail} alt="email icon" className='resumeMini' /> codinglaurel@gmail.com</span>
-                    <span><img src={MiniPhone} alt="email icon" className='resumeMini'  /> +1 720-303-9393</span>
-                    <span><img src={MiniSite} alt="email icon" className='resumeMini'  /> laurelthorburn.com (coming soon)</span>
-                    <span><img src={MiniInsta} alt="email icon" className='resumeMini'  /> @flaurel_designs</span>
-                    <span><img src={MiniDownload} alt="email icon" className='resumeMini'  /> Download Resume (PDF)</span>
+                    <span><a href="mailto:codinglaurel@gmail.com?subject=Mail from github Portfolio" target="_blank"><img src={MiniEmail} alt="email icon" className='resumeMini' /></a> codinglaurel@gmail.com</span>
+                    <span><a href="tel:7203039393" target="_blank"><img src={MiniPhone} alt="email icon" className='resumeMini'  /></a> +1 720-303-9393</span>
+                    <span><a href="https://laurelthorburn.com" target="_blank"><img src={MiniSite} alt="email icon" className='resumeMini'  /></a> laurelthorburn.com (coming soon)</span>
+                    <span><a href="https://www.instagram.com/flaurel_designs/" target="_blank"><img src={MiniInsta} alt="email icon" className='resumeMini'  /></a> @flaurel_designs</span>
+                    <span><a href="https://drive.google.com/file/d/1Yo_9a2iOZ0rsJ-veGJPgxC8EfAvDOjDc/view?usp=sharing" target="_blank"><img src={MiniDownload} alt="email icon" className='resumeMini'  /></a> Open Resume (PDF)</span>
                 </div>
             </div>
             </div>
