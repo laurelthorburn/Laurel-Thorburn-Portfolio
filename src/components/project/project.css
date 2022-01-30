@@ -51,6 +51,10 @@ transform-style: preserve-3d;
 
 .cardTitle{
     font-family: 'Anton', sans-serif;
+    background-color: #7195a3b2;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
 }
 
 .cardIcon {

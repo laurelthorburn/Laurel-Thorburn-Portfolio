@@ -9,12 +9,12 @@ const Project = ({img,ghLink,siteLink,title}) => {
             <div className="card">
             <figure className="front">
                 <img src={img} alt={title} className="projectImg" />
-                </figure>
+                <div className="cardTitle">
+                    {title}
+                </div>
+            </figure>
 
             <figure className="back">
-                {/* <div className="cardTitle">
-                    Title: {title}
-                </div> */}
                     <a href={ghLink} target="_blank" rel="noreferrer" className='projectLink'>
                         <div className="githubBlock" onClick="location.href={ghLink}">
                             <a href={ghLink} target="_blank" rel="noreferrer" className='projectLink'>
