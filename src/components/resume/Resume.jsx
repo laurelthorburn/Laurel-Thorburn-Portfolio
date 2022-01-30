@@ -4,11 +4,14 @@ const Resume = () => {
     return(
         <div className="resume">
             <div className="resumeTitle">
-            <h1 className="resumeName">
-                LAUREL THORBURN, AuD
-                </h1>
-                <span className="resumeCatch">SOFTWARE ENGINEER, AUDIOLOGIST, DONUT LOVER</span>
-
+                <div className="resumeSubTitle">
+                    <h1 className="resumeName">
+                        LAUREL THORBURN, AuD
+                    </h1>
+                    <span className="resumeCatch">
+                        SOFTWARE ENGINEER, AUDIOLOGIST, DONUT LOVER
+                    </span>
+                </div>
             </div>
             <div className="resumeContainer">
                 <div className="resumeSubContain">
@@ -95,6 +98,7 @@ const Resume = () => {
                     +1 720-303-9393
                     laurelthorburn.com (coming soon)
                     @flaurel_designs
+                    Download Resume (PDF)
                 </div>
             </div>
             </div>
