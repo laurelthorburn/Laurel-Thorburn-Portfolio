@@ -1,8 +1,8 @@
-import './projectList.css';
+import './portfolio.css';
 import Project from '../project/Project';
 import {projects} from '../../data';
 
-export const ProjectList = () => {
+export const Portfolio = () => {
     return(
         <div className="projectList">
 
@@ -16,4 +16,4 @@ export const ProjectList = () => {
         );
 };
 
-export default ProjectList
+export default Portfolio

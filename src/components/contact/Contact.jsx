@@ -17,7 +17,7 @@ const Contact = () => {
     const [error, setError] = useState("");
 
     //use state for text validation
-    const [textCheck, setTextCheck] = useState("");
+    const [textCheck, setTextCheck] = useState({name: "", subject: "", message: ""});
 
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
