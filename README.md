@@ -130,6 +130,22 @@ No tests at this time
 
   <a name="creditsection"></a>
 ## Resources/Credit
-* 
+* https://reactjs.org/docs/introducing-jsx.html
+* https://reactjs.org/docs/components-and-props.html
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#array_destructuring
+* https://reactjs.org/docs/error-boundaries.html
+* https://stackoverflow.com/questions/53657920/i-cant-install-react-using-npx-create-react-app
+* https://pixabay.com/users/texler-3778340/?tab=popular&pagi=1
+* https://medium.com/@patienceadajah/how-to-send-emails-from-a-react-application-without-a-backend-server-1dd8718ceedd
+* https://medium.com/technofunnel/react-uncontrolled-elements-with-useref-hooks-9c5873476c6f#:~:text=%E2%80%9CuseRef%E2%80%9D%20React%20Hook%20can%20be,elements%20rendered%20in%20the%20component
+* https://stackoverflow.com/questions/51006397/cant-remove-margins-on-react-web-app
+* https://www.youtube.com/watch?v=y_6fVz9jPWA
+* https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+* https://www.w3schools.com/tags/att_input_required.asp
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
+* https://www.npmjs.com/package/validator
+* https://www.flaticon.com/
+* https://careerkarma.com/blog/html-email-link/#:~:text=The%20most%20common%20way%20to,to%20send%20the%20email%20to.&text=This%20link%20will%20open%20up,in%20the%20users'%20email%20client.
+* https://stackoverflow.com/questions/38791919/call-a-function-after-leaving-input-field
 
 
