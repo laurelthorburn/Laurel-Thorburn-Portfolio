@@ -2,7 +2,7 @@
 
 <a name="descsection"></a>
 ## Description
-Welcome to my portfolio.  This site utilizes ReactJS to create a single page application, along with emailJs, Validate, and more.  The user is able to view my react skills and a variety of projects I have worked on over the past few months.  In addition, using emailJs, the user is able to send me an email so that they can offer me a job.
+Welcome to my portfolio.  This site utilizes ReactJS to create a single page application, along with emailJs, Validate, and more.  The user is able to view my react skills and a variety of projects I have worked on over the past few months.  In addition, using emailJs, the user is able to send me an email so that we can discuss what I can bring to your team.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
