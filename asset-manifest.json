@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Laurel-Thorburn-Portfolio/static/css/main.393343f6.css",
-    "main.js": "/Laurel-Thorburn-Portfolio/static/js/main.a08954b8.js",
+    "main.css": "/Laurel-Thorburn-Portfolio/static/css/main.72e2f31b.css",
+    "main.js": "/Laurel-Thorburn-Portfolio/static/js/main.764ba57c.js",
     "static/media/giantlaurel.png": "/Laurel-Thorburn-Portfolio/static/media/giantlaurel.dfa4710c42537cf5f337.png",
     "static/media/phone.png": "/Laurel-Thorburn-Portfolio/static/media/phone.bbc1b315eb41cce12a86.png",
     "static/media/miniinsta.png": "/Laurel-Thorburn-Portfolio/static/media/miniinsta.42025a485bbd0a433c51.png",
@@ -12,11 +12,11 @@
     "static/media/github.png": "/Laurel-Thorburn-Portfolio/static/media/github.6cc8ddb6fee20177f611.png",
     "static/media/miniemail.png": "/Laurel-Thorburn-Portfolio/static/media/miniemail.fa936dd20a000212e51b.png",
     "index.html": "/Laurel-Thorburn-Portfolio/index.html",
-    "main.393343f6.css.map": "/Laurel-Thorburn-Portfolio/static/css/main.393343f6.css.map",
-    "main.a08954b8.js.map": "/Laurel-Thorburn-Portfolio/static/js/main.a08954b8.js.map"
+    "main.72e2f31b.css.map": "/Laurel-Thorburn-Portfolio/static/css/main.72e2f31b.css.map",
+    "main.764ba57c.js.map": "/Laurel-Thorburn-Portfolio/static/js/main.764ba57c.js.map"
   },
   "entrypoints": [
-    "static/css/main.393343f6.css",
-    "static/js/main.a08954b8.js"
+    "static/css/main.72e2f31b.css",
+    "static/js/main.764ba57c.js"
   ]
 }
