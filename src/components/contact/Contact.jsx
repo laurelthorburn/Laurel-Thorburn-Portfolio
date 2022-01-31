@@ -106,8 +106,8 @@ const Contact = () => {
 
                             <textarea name="message" rows="5" placeholder={checkMessage} onBlur={handleMessage} required></textarea>
 
-                            <button className="button-6" >Send Email</button>
-                            {done  && "Thank you, your email has been sent 📨"}
+                            <button className="button-6" >Send Email </button>
+                            <p>{done  && "Thank you, your email has been sent 📨"}</p>
                         </form>
                     </div>
                 </div>
