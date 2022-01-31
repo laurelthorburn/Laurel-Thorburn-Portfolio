@@ -4,7 +4,6 @@
     margin: 10px 10px !important;
     border: 2px solid rgba(0, 0, 0, 0.274);
     overflow: hidden;
-    font-family: 'Anton', sans-serif;
     font-family: 'Zen Kurenaido', sans-serif;
 }
 
@@ -50,7 +49,6 @@ transform-style: preserve-3d;
 }
 
 .cardTitle{
-    font-family: 'Anton', sans-serif;
     background-color: #7195a3b2;
     position: absolute;
     bottom: 1px;
