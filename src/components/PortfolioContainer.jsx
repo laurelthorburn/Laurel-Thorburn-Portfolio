@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './navbar/Navbar';
-import Intro from './intro/Intro';
+import About from './about/About';
 import Contact from './contact/Contact';
 import Portfolio from './portfolio/Portfolio';
 import Footer from './footer/Footer';
@@ -11,8 +11,8 @@ export default function PortfolioContainer() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'Intro') {
-      return <Intro />;
+    if (currentPage === 'About') {
+      return <About />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Intro />;
+    return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

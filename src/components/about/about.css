@@ -9,7 +9,7 @@
     background-color: whitesmoke;
 }
 .intro-left{
-    flex:2;
+    flex:1;
     display: flex;
     justify-content: flex-end;
     align-items: center;

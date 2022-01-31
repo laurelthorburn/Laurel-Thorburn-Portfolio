@@ -1,4 +1,4 @@
-import './intro.css';
+import './about.css';
 // import Hero from '../../media/sean_fallphoto.jpg'
 import Laurel from '../../media/giantlaurel.png'
 
