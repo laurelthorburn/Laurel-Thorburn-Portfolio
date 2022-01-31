@@ -104,7 +104,7 @@ const Resume = () => {
                     </h3>
                     <span><a href="https://drive.google.com/file/d/1Yo_9a2iOZ0rsJ-veGJPgxC8EfAvDOjDc/view?usp=sharing" target="_blank" rel="noreferrer"><img src={MiniDownload} alt="email icon" className='resumeMini'  /></a> Open Resume (PDF)</span>
                     <span><a href="mailto:codinglaurel@gmail.com?subject=Mail from github Portfolio" target="_blank" rel="noreferrer"><img src={MiniEmail} alt="email icon" className='resumeMini' /></a> codinglaurel@gmail.com</span>
-                    <span><a href="tel:7203039393" target="_blank" rel="noreferrer"><img src={MiniPhone} alt="email icon" className='resumeMini'  /></a> +1 720-303-9393</span>
+                    <span><a href="tel:7207369393" target="_blank" rel="noreferrer"><img src={MiniPhone} alt="email icon" className='resumeMini'  /></a> +1 720-736-9393</span>
                     <span><a href="https://laurelthorburn.com" target="_blank" rel="noreferrer"><img src={MiniSite} alt="email icon" className='resumeMini'  /></a> laurelthorburn.com (coming soon)</span>
                     <span><a href="https://www.instagram.com/flaurel_designs/" target="_blank" rel="noreferrer"><img src={MiniInsta} alt="email icon" className='resumeMini'  /></a> @flaurel_designs</span>
                 </div>
