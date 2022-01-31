@@ -117,9 +117,10 @@ No tests at this time
 
   <a name="picsection"></a>
   ## Screenshots
-  ![Screenshot of Text Editor Main Screen](./media/screenshot1.png)
-  ![Screenshot of Text Editor with code](./media/screenshot2.png)
-  ![Screenshot of Text Editor with install button pressed showed code can be downloaded](./media/screenshot3.png)
+  ![Screenshot of About Page](./src/media/screenshot1.png)
+  ![Screenshot of Portfolio Page](./src/media/screenshot2.png)
+  ![Screenshot of Contact Page](./src/media/screenshot3.png)
+  ![Screenshot of Resume Page](./src/media/screenshot4.png)
 
   <a name="linksection"></a>
   ## Links
