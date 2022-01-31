@@ -19,7 +19,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="introAbout">
-                    Laurel is full stack developer currently working as an audiologist. She moved to Colorado to pursue her doctorate and currently is employed at Kaiser Permanente. She prides herself on being a strong team member, independent learner, and loves a challenge (except when it involves getting a lid off a jam jar). Laurel originally pursued computer science in college and is excited to achieve this dream over a decade later.
+                    Laurel is a full stack developer currently working as an audiologist. She moved to Colorado to pursue her doctorate and currently is employed at Kaiser Permanente. She prides herself on being a strong team member, independent learner, and loves a challenge (except when it involves getting a lid off a jam jar). Laurel originally pursued computer science in college and is excited to achieve this dream over a decade later.
                     </div>
                 </div>
             </div>
