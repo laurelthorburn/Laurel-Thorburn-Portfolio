@@ -17,6 +17,11 @@ justify-content: space-evenly;
 }
 
 .footImg{
+    width: 45px;
+    opacity: 50%;
+    border-radius: 50%;
+}
+.footImg1{
     width: 50px;
     opacity: 50%;
     border-radius: 50%;
@@ -32,7 +37,7 @@ justify-content: space-evenly;
 }
 
 .imgBorder {
-    border: 1px black solid
+    border: 2px black solid
 }
 
 @media screen and (max-width: 850px){

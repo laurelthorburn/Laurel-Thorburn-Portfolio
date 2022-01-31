@@ -9,7 +9,7 @@ export const Footer = () => {
   <div className="foot">
       <div className="footIcons">
         <a href="https://github.com/laurelthorburn" target="_blank">
-          <img src={Github} alt="Github Icon" className="footImg ghLogo" />
+          <img src={Github} alt="Github Icon" className="footImg1 ghLogo" />
         </a>
         <a href="https://www.linkedin.com/in/laurel-thorburn-651592219/" target="_blank">
           <img src={LinkedIn} alt="LinkedIn Icon" className="footImg imgBorder" />
