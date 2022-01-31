@@ -28,6 +28,9 @@ const Contact = () => {
     //use state for email text validation
     const [checkEmail, setEmailCheck] = useState("Email");
 
+    // //trying to toggle inactive class to make input required more visible to user
+    // const [toggleClass, setToggleClass] = useState(false);
+
     //see emailJS documentation for emailJS setup
     const sendEmail = (e) => {
         e.preventDefault();
@@ -62,13 +65,13 @@ const Contact = () => {
         //check to see if user input a value in email form
         const handleEmail = (e) => {
             e.preventDefault();
-            (!e.target.value.length) ? setEmailCheck("Email is required") : setMessageCheck("Email");
+            (!e.target.value.length) ? setEmailCheck("Email is required") : setEmailCheck("Email");
             }
 
       //check to see if user input a value in email form, must meet email requirements
       const handleChange = (e) => {
         e.preventDefault();
-        isEmail(e.target.value) ? setError("") : setError("Please input a valid email, such as laurelishired@hireher.com");
+        isEmail(e.target.value) ? setError("") : setError("Please input a valid email, such as hirelaurel@email.com");
       }
 
     return (
@@ -97,16 +100,16 @@ const Contact = () => {
                             <b>Let's work together.</b> 
                         </p>
                         <form ref={formRef} onSubmit={sendEmail}>
-                            <input type="text" placeholder={checkName} name='{user_name}' onBlur={handleName} required />
+                            <input type="text" placeholder={checkName} name='{user_name}' onBlur={handleName} className={checkName === "Name is required" ? "inactive" : "active"}  required />
 
-                            <input type="text" placeholder={checkSubject} name='{user_subject}' onBlur={handleSubject} required />
+                            <input type="text" placeholder={checkSubject} name='{user_subject}' onBlur={handleSubject} className={checkSubject === "Subject is required" ? "inactive" : "active"} required />
 
-                            <input type="email" placeholder={checkEmail} name='{user_email}' onBlur={handleEmail} onChange={handleChange} required />
+                            <input type="email" placeholder={checkEmail} name='{user_email}' onBlur={handleEmail} onChange={handleChange} className={checkEmail !== "Email is required" ? "active" : "inactive"} required />
                             <p className="errorMsg">{error}</p>
 
-                            <textarea name="message" rows="5" placeholder={checkMessage} onBlur={handleMessage} required></textarea>
+                            <textarea name="message" rows="5" placeholder={checkMessage} onBlur={handleMessage} className={checkMessage === "Message is required" ? "inactive" : "active"} required></textarea>
 
-                            <button className="button-6" >Send Email </button>
+                            <button className="button-6">Send Email </button>
                             <p>{done  && "Thank you, your email has been sent 📨"}</p>
                         </form>
                     </div>
