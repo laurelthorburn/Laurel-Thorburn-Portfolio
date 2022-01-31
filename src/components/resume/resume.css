@@ -114,3 +114,21 @@ font-size: 1.5rem;
     width: 15px;
     padding-right: 2px !important;;
 }
+
+@media screen and (max-width: 800px){
+.resumeContainer,
+.resumeSubContain{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.resume-right,
+.resumeStack,
+.resumeSoftie,
+.resumeContact{
+    width: auto;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+}
