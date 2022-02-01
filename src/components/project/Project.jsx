@@ -1,7 +1,5 @@
 import { useContext } from 'react';
 import './project.css'
-// import GithubLogo from '../../media/githublogo.png'
-// import Computer from '../../media/computer.png'
 
 const Project = ({img,ghLink,siteLink,title}) => {
     return (
