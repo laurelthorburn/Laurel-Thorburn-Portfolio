@@ -83,6 +83,11 @@ transform-style: preserve-3d;
     align-items: center;
 }
 
+.projectLink,
+.siteLink {
+    width: 100%;
+}
+
 .projectLink:hover,
 .siteLink:hover{
     color: pink;
