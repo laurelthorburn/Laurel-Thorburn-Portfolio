@@ -28,6 +28,12 @@ const Contact = () => {
     //use state for email text validation
     const [checkEmail, setEmailCheck] = useState("Email");
 
+// const handlePlaceholder = (e) => {
+//     e.preventDefault();
+//     formRef.current.reset();
+// };
+
+
     // //trying to toggle inactive class to make input required more visible to user
     // const [toggleClass, setToggleClass] = useState(false);
 
@@ -39,6 +45,7 @@ const Contact = () => {
           .then((result) => {
               console.log("Your email has been sent 📨");
               setDone(true)
+              formRef.current.reset();
           }, (error) => {
               console.log(error.text);
           });
