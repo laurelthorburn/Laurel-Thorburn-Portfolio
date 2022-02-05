@@ -28,12 +28,6 @@ const Contact = () => {
     //use state for email text validation
     const [checkEmail, setEmailCheck] = useState("Email");
 
-// const handlePlaceholder = (e) => {
-//     e.preventDefault();
-//     formRef.current.reset();
-// };
-
-
     // //trying to toggle inactive class to make input required more visible to user
     // const [toggleClass, setToggleClass] = useState(false);
 
