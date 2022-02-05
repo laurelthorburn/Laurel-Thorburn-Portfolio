@@ -148,5 +148,6 @@ No tests at this time
 * https://www.flaticon.com/
 * https://careerkarma.com/blog/html-email-link/#:~:text=The%20most%20common%20way%20to,to%20send%20the%20email%20to.&text=This%20link%20will%20open%20up,in%20the%20users'%20email%20client.
 * https://stackoverflow.com/questions/38791919/call-a-function-after-leaving-input-field
+* https://www.w3schools.com/howto/howto_html_download_link.asp
 
 
