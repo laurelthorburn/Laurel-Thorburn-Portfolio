@@ -117,6 +117,9 @@
         height: 400px;
         width: auto;
     }
+    .introTitle {
+        max-width: 100vw;
+    }
 }
 
 /* phone/mobile device */
@@ -125,6 +128,8 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+        max-width: 100vw !important;
+
     }
     .intro-left{
         height: 40vh;
@@ -146,8 +151,7 @@
         width: 100vw;
     }
     .megaLaurel{
-        height: 400px;
-        width: auto;
+display: none;
     }
 }
 
@@ -158,21 +162,23 @@
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
+        max-width: 100vw;
     }
 
 .intro-title-wrapper{
     display: none;
+    max-width: 100vw !important;
 }
 
 .introName{
     font-size: 25px;
-    width: 100vw;
+    max-width: 100vw !important;
     height: 10vh;
     text-align: center;
 }
 
 .megaLaurel{
-    height: 125px;
+    display: none;
 }
 
 }

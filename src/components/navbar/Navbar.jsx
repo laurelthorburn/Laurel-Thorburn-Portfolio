@@ -7,7 +7,7 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <nav className="nav">
         <div className="nav-left">
-            <h1 className="navName"><span className="bigL">L</span>aurel T.</h1>
+            <h1 className="navName"><span className="bigL">L</span>aurel</h1>
         </div>
         <div className="nav-right">
             <span className='navItems'>

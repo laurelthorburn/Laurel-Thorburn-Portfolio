@@ -56,6 +56,7 @@ a {
 @media screen and (max-width: 850px){
     .nav{
         height: 20vh;
+        width: 100vw;
     }
     .navItems{
         display: flex;
