@@ -4,7 +4,7 @@ import MiniPhone from '../../media/miniphone.png';
 import MiniSite from '../../media/minisite.png';
 import MiniInsta from '../../media/miniinsta.png';
 import MiniDownload from '../../media/minidownload.png';
-import ResumePDF from '../../media/LaurelThorburnResume.docx.pdf';
+import ResumePDF from '../../media/LaurelThorburn_Resume.pdf';
 
 const Resume = () => {
     return(
@@ -103,7 +103,7 @@ const Resume = () => {
                     <h3 className="resContactTitle"> 
                     CONTACT
                     </h3>
-                    <span><a href="https://drive.google.com/file/d/1Yo_9a2iOZ0rsJ-veGJPgxC8EfAvDOjDc/view?usp=sharing" target="_blank" rel="noreferrer"><img src={MiniDownload} alt="download icon" className='resumeMini'  /> View Resume</a></span>
+                    <span><a href="https://drive.google.com/file/d/1ZyNn1gCgtfvAz5V5F4XVv8-J2UDBfXrS/view?usp=sharing" target="_blank" rel="noreferrer"><img src={MiniDownload} alt="download icon" className='resumeMini'  /> View Resume</a></span>
                     <span><a href={ResumePDF} download rel="noreferrer"><img src={MiniDownload} alt="download icon" className='resumeMini'  /> Download Resume (PDF)</a></span>
                     <span><a href="mailto:codinglaurel@gmail.com?subject=Mail from github Portfolio" target="_blank" rel="noreferrer"><img src={MiniEmail} alt="email icon" className='resumeMini' /> codinglaurel@gmail.com</a></span>
                     <span><a href="tel:7207369393" target="_blank" rel="noreferrer"><img src={MiniPhone} alt="phone icon" className='resumeMini'  /> +1 720-736-9393</a></span>
